@@ -1,12 +1,13 @@
 # chat-room
 Using Node.js to build a BS application with which multiple ppl can chat in a chat room.
 
-in this branch(master), app is set to let visitors visit heroku cloud-hosted server(https://songjiuchongcrs2.herokuapp.com/chat) so they can enter the chatroom.
+In this branch(master), app is set to let visitors visit heroku cloud-hosted server(https://songjiuchongcrs2.herokuapp.com/chat) so they can enter the chatroom.
 
-server1 is sync with https://git.heroku.com/songjiuchongcrs1.git
-server2 is sync with https://git.heroku.com/songjiuchongcrs2.git
+server1 is sync with https://git.heroku.com/songjiuchongcrs1.git <br/>
+server2 is sync with https://git.heroku.com/songjiuchongcrs2.git <br/>
 
-in order to let heroku deploy those two separate but synactic apps on its cloud-nested server:
-https://songjiuchongcrs1.herokuapp.com
-https://songjiuchongcrs2.herokuapp.com
+In order to let heroku deploy those two separate but synactic apps on its cloud-nested server: <br/>
+https://songjiuchongcrs1.herokuapp.com <br/>
+https://songjiuchongcrs2.herokuapp.com <br/>
 
+To sum up, folders: server1 and server2 are two git repo that holding server files(one of them respond to visitor' browser a client-end .html file) for two apps.
