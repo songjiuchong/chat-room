@@ -14,4 +14,4 @@ To sum up, folders: server1 and server2 are two git repo that holding server fil
 
 
 NOTICE: <br/>
-If you get error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room, please close any proxy you are using.
+If you get an error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room, please close any proxy you are using.
