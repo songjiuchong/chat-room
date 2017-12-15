@@ -11,3 +11,7 @@ https://songjiuchongcrs1.herokuapp.com <br/>
 https://songjiuchongcrs2.herokuapp.com <br/>
 
 To sum up, folders: server1 and server2 are two git repo that holding server files(one of them respond to visitor' browser a client-end .html file) for two apps.
+
+
+NOTICE:
+If you get error message(<span style='color:red'>failed: Establishing a tunnel via proxy server failed</span>) when entering the chat room, please close any proxy you are using.
