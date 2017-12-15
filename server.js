@@ -34,10 +34,11 @@ var server = ws.createServer(function (conn) {
 			flag = true;
 		}else{
 			console.log(id+' 发言次数: ' + total++);
-			msg = msg.replace(/\n/ig,'<br/>');
-			
+			originMsg = msg.replace(/\n/ig,'<br/>');
+
 			for(var i=0; i<conns.length; i++){
 				if(conns[i]){
+					msg = originMsg; //每次循环先将待发出的发言重置为初始收到的黑色字体的发言;
 					if(conns[i] == conn){
 						msg = msg.replace(/black/,'green'); //自己的发言将显示其它颜色的文本,以便区分;	
 					}
