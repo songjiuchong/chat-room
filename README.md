@@ -10,8 +10,8 @@ In order to let heroku deploy those two separate but synactic apps on its cloud-
 https://songjiuchongcrs1.herokuapp.com <br/>
 https://songjiuchongcrs2.herokuapp.com <br/>
 
-To sum up, folders: server1 and server2 are two git repo that holding server files(one of them respond to visitor' browser a client-end .html file) for two apps.
+To sum up, folders: server1 and server2 are two git repo that holding server files(one of them respond to visitor' browser a client-end .html file) for two apps. <br/>
 
 
-NOTICE:
-If you get error message(<span style='color:red'>failed: Establishing a tunnel via proxy server failed</span>) when entering the chat room, please close any proxy you are using.
+NOTICE: <br/>
+If you get error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room, please close any proxy you are using.
