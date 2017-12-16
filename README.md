@@ -15,3 +15,8 @@ To sum up, folders: server1 and server2 are two git repo that holding server fil
 
 NOTICE: <br/>
 If you get an error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room, please close any proxy you are using.
+
+
+Rerference: <br/>
+https://github.com/songjiuchong/memos/blob/master/Node.js%20note/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.md
+-- 19.基于WebSocket的简单聊天室;
