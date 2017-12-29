@@ -14,7 +14,8 @@ To sum up, folders: server1 and server2 are two git repo that holding server fil
 
 
 NOTICE: <br/>
-If you get an error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room, please close any proxy you are using.
+1.If you get an error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room, please close any proxy you are using.<br/>
+2.You can't look into server1/server2 folders in master branch since those two folders are holding their own git repos, so server1/server2 branches are provided for the sake of let you look inside those two server folders.
 
 
 Rerference: <br/>
