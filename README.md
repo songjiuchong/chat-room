@@ -1,8 +1,17 @@
 # chat-room
 Using Node.js to build a BS application with which multiple ppl can chat in a chat room.
 
-in this branch(develop), app is set to run locally at: http://localhost:8000/chat
+This app is deployed to heroku cloud server, and you can visit at : <br/> https://songjiuchongchatroom.herokuapp.com/
 
-Rerference: <br/>
-https://github.com/songjiuchong/memos/blob/master/Node.js%20note/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.md
--- 19.基于WebSocket的简单聊天室;
+**NOTICE: ** <br/>
+If you get an error message(failed: Establishing a tunnel via proxy server failed) when entering the chat room or simply can't open it, please close any proxy you are using and try again. <br/>
+
+![](./README_img/1.png)
+
+![](./README_img/2.png)
+
+![](./README_img/3.png)
+
+![](./README_img/4.png)
+
+![](./README_img/5.png)
