@@ -1,6 +1,11 @@
 # chat-room
 Using Node.js to build a BS application with which multiple ppl can chat in a chat room.
 
+Latest Update: <br/>
+Since https://songjiuchongcrs2.herokuapp.com/chat has been **deprecated**, please refer to the final version in branch: 'live', and you can visit https://songjiuchongchatroom.herokuapp.com/ to use the latest updated app.
+<br/><br/>
+
+**Deprecated:**<br/>
 In this branch(master), app is set to let visitors visit heroku cloud-hosted server(https://songjiuchongcrs2.herokuapp.com/chat) so they can enter the chatroom.
 
 server1 is sync with https://git.heroku.com/songjiuchongcrs1.git <br/>
