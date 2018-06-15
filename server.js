@@ -54,7 +54,7 @@ wss.on('connection', function (conn) {
 				if(conns[i]){
 					msg = originMsg; //每次循环先将待发出的发言重置为初始收到的黑色字体的发言;
 					if(conns[i] == conn){
-						msg = msg.replace(/black/,'green'); //自己的发言将显示其它颜色的文本,以便区分;	
+						msg = msg.replace(/black/,'#f6ef67'); //自己的发言将显示其它颜色的文本,以便区分;	
 					}
 
 					var message = {type:'chat',msg:msg};

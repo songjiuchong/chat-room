@@ -24,7 +24,11 @@
 				$('#curOnline').html('当前在线人数: ?');
 				// host = 'localhost';
 				// port = 8080;
-				url = 'wss://' + location.host;
+				if(location.protocol && location.protocol.indexOf('https')==0){
+					url = 'wss://' + location.host;
+				}else{
+					url = 'ws://' + location.host;
+				}
 				dcAlert = true;
 			};
 			
@@ -115,6 +119,31 @@
 			
 		</script>
 		<style>
+			body {
+			    background-image: url(//img1.jiemian.com/101/original/20160923/147460920918326100_a580x330.jpg);
+			    background-repeat: no-repeat;
+			    background-size: contain;
+			    background-color: #497db1;
+			}
+			label {
+				color: #dad44a;
+			    margin-right: 10px;
+			}
+			.wrapper-1 {
+			    display: inline-block;
+			    border:1px solid #cccccc;
+			    overflow: hidden;
+			    width: 385px;
+			    height:400px; 
+			    float: left;
+			}
+			.wrapper-2 {
+				display: inline-block;
+			    width: 175px;
+			    overflow: hidden;
+			    height: 400px;
+			    border: 1px solid #cccccc;
+			}
 			.contentarea {
 				resize: none;
 				width: 300px;
@@ -127,28 +156,27 @@
 				top:-90px;
 			}
 			div.hint{
-				color:grey;
+				color:#fcee71;
 				position:relative;
 				left:345px;
 			}
 			#chat-box{
-				border:1px solid #cccccc;
+				color: black;
 				display:inline-block;
 				width:400px; 
-				height:400px; 
+				padding-left: 8px;
 				overflow-y:scroll;
 				overflow-x:auto;
 			}
 			#notice{
-				border:1px solid #cccccc;
 				display:inline-block;
 				width:190px; 
-				height:400px; 
+				font-weight: bold;
 				overflow-y:scroll;
 				overflow-x:hidden;
 			}
 			#curOnline{
-				color:grey;
+				color:#fcee71;
 				position:relative;
 				left:50px;
 			}
@@ -156,11 +184,18 @@
 				margin-left: 5px;
     			margin-bottom: 5px;
 			}
+
 		</style>
 	</head>
  
 	<body>
-	<span id="chat-box"></span><span id='notice'></span><br/>
+		<div class='wrapper-1'>
+			<span id="chat-box"></span>
+		</div>
+		<div class='wrapper-2'>
+			<span id='notice'></span>
+		</div>
+	<br/>
 	<label for="nike">昵称:</label><input type="text" id="nike"/><input type="button" id="join" onClick="join();" value="加入聊天室"/>
 	<input type="button" id="leave" onClick="leave();" value="离开聊天室"/>
 	<span id='curOnline'></span><br/>
