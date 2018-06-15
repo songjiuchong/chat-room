@@ -82,7 +82,6 @@ wss.on('connection', function (conn) {
 		}
     })
     conn.on("error", function(e){
-    	console.log(e)
  		conn.close(); 
 	});
 });
